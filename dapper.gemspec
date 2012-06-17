@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["jeff.carley@gmail.com"]
   gem.description   = %q{A gem for using presenters in your rails application.}
   gem.summary       = %q{Dapper makes it really easy to include presenters into your application.  Very handy for cleaning up your views.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/jcarley/Dapper"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
