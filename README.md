@@ -1,6 +1,6 @@
 # Dapper
 
-TODO: Write a gem description
+Dapper adds the ability to generate presenters for your rails project.
 
 ## Installation
 
@@ -18,7 +18,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Once the gem is installed, run the presenters generator.
+
+    $ rails generate presenter CONTROLLER_NAME [actions]
+
+Example:
+
+    $ rails generate presenter Photos index new edit
+
+The result will be:
+
+myrailsproject
+  |~app/
+    |~presenters/
+      |~photos/
+        |-edit_presenter.rb
+        |-index_presenter.rb
+        `-new_presenter.rb
+      
+Running the presenter generator without any actions will default to
+one index_presenter.rb
+
 
 ## Contributing
 
