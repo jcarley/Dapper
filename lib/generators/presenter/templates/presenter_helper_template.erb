@@ -1,0 +1,7 @@
+module PresenterHelper
+
+  def initialize_presenter
+    klass = "#{controller.controller_name.camelcase}::#{controller.action_name.camelcase}Presenter".constantize
+  end
+
+end
