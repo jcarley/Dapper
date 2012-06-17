@@ -28,13 +28,13 @@ Example:
 
 The result will be:
 
-myrailsproject
-  |~app/
-    |~presenters/
-      |~photos/
-        |-edit_presenter.rb
-        |-index_presenter.rb
-        `-new_presenter.rb
+    myrailsproject
+      |~app/
+        |~presenters/
+          |~photos/
+            |-edit_presenter.rb
+            |-index_presenter.rb
+            `-new_presenter.rb
       
 Running the presenter generator without any actions will default to
 one index_presenter.rb
