@@ -68,7 +68,7 @@ easy to move ugly logic out of your views and put it in your presenters.  Here
 is an example that is pulling some logic for getting the most recent photos
 from a photo album.  Granted there are ways to better solve this in the model
 itself, but you get the idea.  This type of logic is not uncommon in views.
-You could really put any time of display logic in a presenter.  You can also
+You could really put any type of display logic in a presenter.  You can also
 combine multiple models in a presenter. The big benefit here is that using a
 presenter helps to maintain a flattened structure in your views.
 
@@ -88,6 +88,12 @@ presenter helps to maintain a flattened structure in your views.
 
       end
     end
+
+Presenters don't have to only make it easier to work with models.  They can be used for
+any type of view logic.  They could adjust the text of a button based on some environment
+conditions.  That condition might have nothing to do with a model.  You could also change 
+the visibility of sections of your page.  Anything really.  This is the reason there is a 
+presenter per view.  Each view could have its own requirements for how it displays itself.
 
 
 ## Contributing
