@@ -95,6 +95,12 @@ conditions.  That condition might have nothing to do with a model.  You could al
 the visibility of sections of your page.  Anything really.  This is the reason there is a 
 presenter per view.  Each view could have its own requirements for how it displays itself.
 
+## Acknowledgements
+
+I wouldn't be doing justice to the open source community if I didn't give a big heads up to Jeff
+Casimir and his [Draper](https://github.com/jcasimir/draper/) project.  It had much influence on 
+the success of this project.  It showed me how to do all the wiring into the Rails framework.
+
 
 ## Contributing
 
