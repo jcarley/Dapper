@@ -2,7 +2,7 @@ class PresenterGenerator < Rails::Generators::NamedBase
   source_root File.expand_path('../templates', __FILE__)
   argument :actions, :type => :array, :default => ["index"], :banner => "action action"
 
-  check_class_collision
+  #check_class_collision
   desc "Generate presenter."
 
   def manifest
